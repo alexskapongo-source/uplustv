@@ -1,0 +1,317 @@
+{
+  "canal-plus-sport": {
+    "src": "/logos/canal-plus-sport.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/2/2c/C%2B_Sport_%282023%29.png",
+    "page": "https://fr.wikipedia.org/wiki/Canal%2B%20Sport"
+  },
+  "warner-tv": {
+    "src": "/logos/warner-tv.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/6c/WarnerTV_France_2021.svg",
+    "page": "https://fr.wikipedia.org/wiki/Warner%20TV"
+  },
+  "amc": {
+    "src": "/logos/amc.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/AMC_logo_2019.svg",
+    "page": "https://fr.wikipedia.org/wiki/AMC%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "paramount-network": {
+    "src": "/logos/paramount-network.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/57/Paramount_Network_2024.svg",
+    "page": "https://fr.wikipedia.org/wiki/Paramount%20Network"
+  },
+  "rmc-sport-1": {
+    "src": "/logos/rmc-sport-1.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Logo_RMC_Sport_2018.svg",
+    "page": "https://fr.wikipedia.org/wiki/RMC%20Sport"
+  },
+  "sky-sports-main-event": {
+    "src": "/logos/sky-sports-main-event.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sky_Sports_2007_logo.svg",
+    "page": "https://en.wikipedia.org/wiki/Sky%20Sports"
+  },
+  "canal-plus-sport-2": {
+    "src": "/logos/canal-plus-sport-2.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/2/2c/C%2B_Sport_%282023%29.png",
+    "page": "https://fr.wikipedia.org/wiki/Canal%2B%20Sport"
+  },
+  "canal-plus-cinema": {
+    "src": "/logos/canal-plus-cinema.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/e/eb/C%2B_Cin%C3%A9ma%28s%29.png",
+    "page": "https://fr.wikipedia.org/wiki/Canal%2B%20Cin%C3%A9ma(s)"
+  },
+  "cine-plus-premier": {
+    "src": "/logos/cine-plus-premier.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cin%C3%A9%2BOCS_2024.svg",
+    "page": "https://fr.wikipedia.org/wiki/Cin%C3%A9%2B%20OCS"
+  },
+  "cine-plus-frisson": {
+    "src": "/logos/cine-plus-frisson.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Cin%C3%A9%2BOCS_2024.svg",
+    "page": "https://fr.wikipedia.org/wiki/Cin%C3%A9%2B%20OCS"
+  },
+  "syfy": {
+    "src": "/logos/syfy.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/SciFi_2026.svg",
+    "page": "https://fr.wikipedia.org/wiki/SciFi"
+  },
+  "serie-club": {
+    "src": "/logos/serie-club.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_TF1_Group_2020.svg",
+    "page": "https://fr.wikipedia.org/wiki/S%C3%A9rie%20Club"
+  },
+  "france-24": {
+    "src": "/logos/france-24.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/2/24/Logos_FRANCE24_RVB_2013.svg",
+    "page": "https://fr.wikipedia.org/wiki/France%2024"
+  },
+  "tv5monde": {
+    "src": "/logos/tv5monde.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/54/Logo_TV5Monde_2025.svg",
+    "page": "https://fr.wikipedia.org/wiki/TV5%20Monde"
+  },
+  "al-jazeera": {
+    "src": "/logos/al-jazeera.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/0/0f/Al_Jazeera.svg",
+    "page": "https://fr.wikipedia.org/wiki/Al%20Jazeera"
+  },
+  "cnn-international": {
+    "src": "/logos/cnn-international.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9d/CNN_Logo_%282014%29.svg",
+    "page": "https://en.wikipedia.org/wiki/CNN%20International"
+  },
+  "africa-24": {
+    "src": "/logos/africa-24.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/6/6a/Logo_Africa_24.jpg",
+    "page": "https://fr.wikipedia.org/wiki/Africa%2024"
+  },
+  "lci": {
+    "src": "/logos/lci.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/3/38/LCI_-_Logo_%28Ao%C3%BBt_2017%29.svg",
+    "page": "https://fr.wikipedia.org/wiki/LCI"
+  },
+  "rt-france": {
+    "src": "/logos/rt-france.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/9/9e/RT_France.svg",
+    "page": "https://fr.wikipedia.org/wiki/RT%20en%20fran%C3%A7ais"
+  },
+  "disney-channel": {
+    "src": "/logos/disney-channel.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Disney_Channel_HQ.jpg",
+    "page": "https://fr.wikipedia.org/wiki/Disney%20Channel"
+  },
+  "cartoon-network": {
+    "src": "/logos/cartoon-network.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/80/Cartoon_Network_2010_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/Cartoon%20Network"
+  },
+  "nickelodeon": {
+    "src": "/logos/nickelodeon.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Nickelodeon_2023_logo_%28outline%29.svg",
+    "page": "https://fr.wikipedia.org/wiki/Nickelodeon%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "boomerang": {
+    "src": "/logos/boomerang.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/3/35/Boomerang_2014_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/Boomerang%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "gulli": {
+    "src": "/logos/gulli.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Gulli_logo_2023.png",
+    "page": "https://fr.wikipedia.org/wiki/Gulli"
+  },
+  "piwi-plus": {
+    "src": "/logos/piwi-plus.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/6/6e/Piwi%2B_logo_2011.png",
+    "page": "https://fr.wikipedia.org/wiki/Piwi%2B"
+  },
+  "nat-geo-wild": {
+    "src": "/logos/nat-geo-wild.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/27/National_Geographic_Wild_logo.svg",
+    "page": "https://en.wikipedia.org/wiki/Nat%20Geo%20Wild"
+  },
+  "discovery-channel": {
+    "src": "/logos/discovery-channel.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d1/2016_Discovery_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/Discovery%20Channel"
+  },
+  "animal-planet": {
+    "src": "/logos/animal-planet.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/20/2018_Animal_Planet_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/Animal%20Planet"
+  },
+  "planete-plus": {
+    "src": "/logos/planete-plus.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/c/cd/PlanetePlus_2011.svg",
+    "page": "https://fr.wikipedia.org/wiki/Plan%C3%A8te%2B"
+  },
+  "science-vie-tv": {
+    "src": "/logos/science-vie-tv.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ab/SVTV_LOGO.png",
+    "page": "https://fr.wikipedia.org/wiki/Science%20%26%20Vie%20TV"
+  },
+  "tf1": {
+    "src": "/logos/tf1.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Logo_TF1_2013.svg",
+    "page": "https://fr.wikipedia.org/wiki/TF1"
+  },
+  "m6": {
+    "src": "/logos/m6.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Logo_M6_%282020%2C_fond_clair%29.svg",
+    "page": "https://fr.wikipedia.org/wiki/M6"
+  },
+  "france-3": {
+    "src": "/logos/france-3.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/France.tv_-_logo_2022.svg",
+    "page": "https://fr.wikipedia.org/wiki/France%203"
+  },
+  "c8": {
+    "src": "/logos/c8.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Logo_C8_2016.svg",
+    "page": "https://fr.wikipedia.org/wiki/C8%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "tmc": {
+    "src": "/logos/tmc.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/a/a8/TMC_logo_2016.svg",
+    "page": "https://fr.wikipedia.org/wiki/TMC%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "comedie-plus": {
+    "src": "/logos/comedie-plus.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/4/49/Com%C3%A9die%2B_%282011%29.svg",
+    "page": "https://fr.wikipedia.org/wiki/Com%C3%A9die%2B"
+  },
+  "paris-premiere": {
+    "src": "/logos/paris-premiere.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Logo-ParisPremiere-2023.svg",
+    "page": "https://fr.wikipedia.org/wiki/Paris%20Premi%C3%A8re"
+  },
+  "mtv": {
+    "src": "/logos/mtv.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/68/MTV_2021_%28brand_version%29.svg",
+    "page": "https://en.wikipedia.org/wiki/MTV"
+  },
+  "trace-africa": {
+    "src": "/logos/trace-africa.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/c/c6/Traceafrica2022.png",
+    "page": "https://fr.wikipedia.org/wiki/Trace%20Africa"
+  },
+  "trace-urban": {
+    "src": "/logos/trace-urban.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Traceurban2022.png",
+    "page": "https://fr.wikipedia.org/wiki/Trace%20Urban"
+  },
+  "mcm": {
+    "src": "/logos/mcm.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/MCM_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/MCM%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "clubbing-tv": {
+    "src": "/logos/clubbing-tv.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/3/39/Clubbing_TV.png",
+    "page": "https://fr.wikipedia.org/wiki/Clubbing%20TV"
+  },
+  "rtnc": {
+    "src": "/logos/rtnc.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/7/7d/RTNC.png",
+    "page": "https://fr.wikipedia.org/wiki/Radio-T%C3%A9l%C3%A9vision%20nationale%20congolaise"
+  },
+  "africable": {
+    "src": "/logos/africable.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Africable_T%C3%A9l%C3%A9vision_logo.jpg",
+    "page": "https://fr.wikipedia.org/wiki/Africable"
+  },
+  "rti-1": {
+    "src": "/logos/rti-1.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Logo_RTI_2021.svg",
+    "page": "https://fr.wikipedia.org/wiki/Radiodiffusion%20t%C3%A9l%C3%A9vision%20ivoirienne"
+  },
+  "tve-internacional": {
+    "src": "/logos/tve-internacional.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/ee/TVE_Internacional_2026.svg",
+    "page": "https://fr.wikipedia.org/wiki/TVE%20Internacional"
+  },
+  "cgtn": {
+    "src": "/logos/cgtn.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/CGTN-2.svg",
+    "page": "https://fr.wikipedia.org/wiki/China%20Global%20Television%20Network"
+  },
+  "euronews": {
+    "src": "/logos/euronews.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Euronews_Logo_2025.svg",
+    "page": "https://fr.wikipedia.org/wiki/Euronews"
+  },
+  "histoire-tv": {
+    "src": "/logos/histoire-tv.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/5/5c/Histoire_TV_logo_2019.svg",
+    "page": "https://fr.wikipedia.org/wiki/Histoire%20TV"
+  },
+  "canal-plus-afrique": {
+    "src": "/logos/canal-plus-afrique.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/1/13/Canal%2B_overseas_2010_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/Canal%2B%20International"
+  },
+  "a-plus-ivoire": {
+    "src": "/logos/a-plus-ivoire.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/8/83/A%2B_tele_2014_logo.png",
+    "page": "https://fr.wikipedia.org/wiki/A%2B%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "nhk-world": {
+    "src": "/logos/nhk-world.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/7b/NHK_World.svg",
+    "page": "https://en.wikipedia.org/wiki/NHK%20World-Japan"
+  },
+  "bein-sports-2": {
+    "src": "/logos/bein-sports-2.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/89/2016_beIN_Sports_logo.svg",
+    "page": "https://fr.wikipedia.org/wiki/BeIn%20Sports%20(France)"
+  },
+  "eurosport-1": {
+    "src": "/logos/eurosport-1.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/a/a0/Eurosport_HD_logo_2008.svg",
+    "page": "https://fr.wikipedia.org/wiki/Eurosport"
+  },
+  "tcm-cinema": {
+    "src": "/logos/tcm-cinema.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e3/TCM_Cin%C3%A9ma_logo_2019.png",
+    "page": "https://fr.wikipedia.org/wiki/TCM%20Cin%C3%A9ma"
+  },
+  "baby-tv": {
+    "src": "/logos/baby-tv.webp",
+    "source": "https://upload.wikimedia.org/wikipedia/en/b/bc/BabyTV_logo.png",
+    "page": "https://en.wikipedia.org/wiki/BabyTV"
+  },
+  "national-geographic": {
+    "src": "/logos/national-geographic.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Logo_travaux_orange-simple.svg",
+    "page": "https://fr.wikipedia.org/wiki/National%20Geographic%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "ushuaia-tv": {
+    "src": "/logos/ushuaia-tv.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Logo_TF1_Group_2020.svg",
+    "page": "https://fr.wikipedia.org/wiki/Ushua%C3%AFa%20TV"
+  },
+  "france-2": {
+    "src": "/logos/france-2.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/France.tv_-_logo_2022.svg",
+    "page": "https://fr.wikipedia.org/wiki/France%202"
+  },
+  "mezzo": {
+    "src": "/logos/mezzo.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e0/France.tv_-_logo_2022.svg",
+    "page": "https://fr.wikipedia.org/wiki/Mezzo%20(cha%C3%AEne%20de%20t%C3%A9l%C3%A9vision)"
+  },
+  "rai-uno": {
+    "src": "/logos/rai-uno.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Logo_Raiuno_1983.svg",
+    "page": "https://fr.wikipedia.org/wiki/Rai%201"
+  },
+  "rtp-internacional": {
+    "src": "/logos/rtp-internacional.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/fr/9/92/RTP_Internacional_logo_1996.svg",
+    "page": "https://fr.wikipedia.org/wiki/RTP%20Mundo"
+  },
+  "das-erste": {
+    "src": "/logos/das-erste.svg",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/83/ARD_1970_logo.svg",
+    "page": "https://de.wikipedia.org/wiki/Das%20Erste"
+  }
+}

@@ -1,0 +1,300 @@
+@import "tailwindcss";
+
+/* ============================================================
+   UNIVERS+ — DESIGN SYSTEM
+   Source de verite unique. Aucun composant ne doit utiliser
+   de valeur arbitraire : tout passe par ces tokens.
+   ============================================================ */
+
+@theme {
+  /* ---------- Couleurs : neutres profonds ---------- */
+  --color-ink: #0a0a0a;          /* noir profond — canvas sombre */
+  --color-graphite: #141312;     /* noir graphite — sections */
+  --color-slate: #1e1c1a;        /* surface elevee sur fond sombre */
+  --color-smoke: #2a2724;        /* bordures sur fond sombre */
+
+  /* ---------- Couleurs : neutres clairs ---------- */
+  --color-ivory: #f8f6f2;        /* blanc casse — canvas clair */
+  --color-cream: #efeae2;        /* ivoire — surface claire */
+  --color-sand: #e2dcd2;         /* bordures sur fond clair */
+
+  /* ---------- Gris chauds (texte secondaire) ---------- */
+  --color-ash: #a9a29a;          /* texte secondaire sur sombre — 8.1:1 */
+  --color-stone: #6b655d;        /* texte secondaire sur clair — 6.0:1 */
+
+  /* ---------- Accent unique : champagne ---------- */
+  --color-champagne: #c8a97e;        /* accent sur fond sombre — 8.3:1 */
+  --color-champagne-deep: #8a6a2f;   /* accent sur fond clair — 5.4:1 */
+  --color-champagne-dim: #6d5a3c;    /* bordures accent discretes */
+
+  /* ---------- Etats ---------- */
+  --color-positive: #4e7c59;
+  --color-positive-soft: #d8e4da;
+  --color-critical: #a33a32;
+  --color-critical-soft: #f2dedc;
+
+  /* ---------- Typographie ---------- */
+  --font-display: var(--font-instrument-serif), "Iowan Old Style", Georgia, serif;
+  --font-sans: var(--font-instrument-sans), "Helvetica Neue", Arial, sans-serif;
+
+  /* ---------- Echelle d'espacement (dial density = 2 / spacieux) ---------- */
+  --spacing-section: 5.5rem;
+  --spacing-section-sm: 3.5rem;
+  --spacing-gutter: 1.5rem;
+
+  /* ---------- Rayons ---------- */
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 14px;
+  --radius-pill: 999px;
+
+  /* ---------- Ombres (discretes, jamais de glow) ---------- */
+  --shadow-raise: 0 1px 2px rgb(10 10 10 / 0.06), 0 8px 24px rgb(10 10 10 / 0.08);
+  --shadow-lift: 0 2px 4px rgb(10 10 10 / 0.08), 0 18px 48px rgb(10 10 10 / 0.14);
+
+  /* ---------- Transitions ---------- */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out-soft: cubic-bezier(0.65, 0, 0.35, 1);
+
+  /* ---------- Conteneurs ---------- */
+  --container-editorial: 1340px;
+  --container-text: 68ch;
+}
+
+/* ============================================================
+   BASE
+   ============================================================ */
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    /* `clip` plutot que `hidden` : n'installe pas de conteneur de
+       defilement et ne se propage pas au viewport comme le ferait
+       un overflow pose uniquement sur body. */
+    overflow-x: clip;
+  }
+
+  body {
+    margin: 0;
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    line-height: 1.6;
+    font-feature-settings: "kern", "liga";
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  p { margin: 0; text-wrap: pretty; }
+
+  a { color: inherit; text-decoration: none; }
+
+  button { font: inherit; color: inherit; }
+
+  img, svg, video { display: block; max-width: 100%; }
+
+  /* Focus visible : jamais supprime, lisible sur les deux fonds */
+  :focus-visible {
+    outline: 2px solid var(--color-champagne);
+    outline-offset: 3px;
+    border-radius: var(--radius-xs);
+  }
+
+  ::selection {
+    background: var(--color-champagne);
+    color: var(--color-ink);
+  }
+}
+
+/* ============================================================
+   PRIMITIVES REUTILISABLES
+   ============================================================ */
+
+@layer components {
+  .u-container {
+    width: 100%;
+    max-width: var(--container-editorial);
+    margin-inline: auto;
+    padding-inline: var(--spacing-gutter);
+  }
+
+  @media (min-width: 768px) {
+    .u-container { padding-inline: 2.5rem; }
+  }
+
+  @media (min-width: 1280px) {
+    .u-container { padding-inline: 4rem; }
+  }
+
+  .u-section { padding-block: var(--spacing-section-sm); }
+
+  @media (min-width: 768px) {
+    .u-section { padding-block: var(--spacing-section); }
+  }
+
+  .u-eyebrow {
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    line-height: 1.4;
+  }
+
+  .u-display-xl { font-size: clamp(2.75rem, 7.2vw, 5.75rem); }
+  .u-display-lg { font-size: clamp(2.25rem, 5.4vw, 4.25rem); }
+  .u-display-md { font-size: clamp(1.875rem, 3.8vw, 3rem); }
+  .u-display-sm { font-size: clamp(1.5rem, 2.6vw, 2.125rem); }
+
+  .u-underline { position: relative; display: inline-block; }
+
+  .u-underline::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 1px;
+    background: currentColor;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 320ms var(--ease-out-soft);
+  }
+
+  .u-underline:hover::after,
+  .u-underline:focus-visible::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  .u-rule { border-top: 1px solid var(--color-sand); }
+  .u-rule-dark { border-top: 1px solid var(--color-smoke); }
+
+  .u-scrim {
+    background: linear-gradient(
+      100deg,
+      rgb(10 10 10 / 0.94) 0%,
+      rgb(10 10 10 / 0.80) 38%,
+      rgb(10 10 10 / 0.38) 68%,
+      rgb(10 10 10 / 0.16) 100%
+    );
+  }
+
+  .u-scrim-bottom {
+    background: linear-gradient(
+      to top,
+      rgb(10 10 10 / 0.92) 0%,
+      rgb(10 10 10 / 0.48) 45%,
+      rgb(10 10 10 / 0) 100%
+    );
+  }
+}
+
+/* ============================================================
+   UTILITAIRES
+   ============================================================ */
+
+@utility no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar { display: none; }
+}
+
+/* Grain cinematographique tres leger applique aux visuels */
+@utility grain {
+  position: relative;
+  isolation: isolate;
+}
+
+/* ============================================================
+   BANDEAU DEFILANT (chaines) — transform seul, GPU friendly
+   ============================================================ */
+
+@keyframes u-marquee {
+  from { transform: translate3d(0, 0, 0); }
+  to   { transform: translate3d(-50%, 0, 0); }
+}
+
+.u-marquee-track {
+  display: flex;
+  width: max-content;
+  animation: u-marquee var(--marquee-duration, 64s) linear infinite;
+  will-change: transform;
+}
+
+.u-marquee-reverse .u-marquee-track {
+  animation-direction: reverse;
+}
+
+.u-marquee:hover .u-marquee-track,
+.u-marquee:focus-within .u-marquee-track {
+  animation-play-state: paused;
+}
+
+/* ============================================================
+   PASTILLE DE MARQUE — respiration de l'iris
+   Decoratif uniquement. Transform et opacite seuls : aucune
+   proprietes de mise en page n'est animee.
+   ============================================================ */
+
+@keyframes u-brand-breathe {
+  0%, 100% { transform: rotate(0deg) scale(1); opacity: 0.9; }
+  50%      { transform: rotate(45deg) scale(1.12); opacity: 1; }
+}
+
+@keyframes u-brand-halo {
+  0%, 100% { box-shadow: 0 0 0 0 rgb(200 169 126 / 0.18); }
+  50%      { box-shadow: 0 0 0 5px rgb(200 169 126 / 0); }
+}
+
+.u-brand-pulse {
+  animation: u-brand-halo 4.5s var(--ease-in-out-soft) infinite;
+}
+
+.u-brand-pulse-iris {
+  animation: u-brand-breathe 4.5s var(--ease-in-out-soft) infinite;
+  transform-origin: center;
+}
+
+/* ============================================================
+   MOUVEMENT REDUIT — respecte systematiquement
+   ============================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  .u-marquee-track,
+  .u-brand-pulse,
+  .u-brand-pulse-iris {
+    animation: none !important;
+    transform: none !important;
+  }
+}
