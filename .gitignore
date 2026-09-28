@@ -11,3 +11,4 @@ data/*.json
 .netlify
 .env*.local
 netlify-env.txt
+deno.lock
